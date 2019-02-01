@@ -1,0 +1,107 @@
+html, body {
+  height: 100%;
+  padding: 5px;
+  color: #000099;
+  /*background-image: linear-gradient(to right, rgba(200, 200, 200, 0.9), white);*/
+  background-color: white;
+  background-repeat: repeat;
+  font-family: consolas;
+  font-size: 12pt;
+  text-align: justify;
+}
+
+.age {
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.ticketType {
+  font-size: 18pt;
+}
+
+#ageSelection {
+
+}
+
+.horizontalRule {
+  border: 0.5px solid #AAAAAA;
+  width: 70%;
+  margin: 20px 0px 20px 0px;
+}
+
+.movieIcon {
+  height: 170px;
+}
+
+.movieIcon2 {
+  height: 250px;
+}
+
+.movieTitle {
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+.filmDescriptionLabel {
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.btn {
+  margin-right: 20px;
+}
+
+.container {
+  height: 100%;
+}
+
+.filmSchedule {
+  height: 100%;
+  /*
+  background-color: white;
+  border-radius: 5px;
+  -webkit-box-shadow: 7px -7px 7px #999999;
+  */
+}
+
+.showing {
+    margin-bottom: 40px;
+}
+
+.purchaseButtonContainer button {
+  margin-top: 50px;
+  background-color: orange;
+}
+
+div#projectName {
+  font-size: 28pt;
+  text-align: center;
+  color: #0000DD;
+}
+
+div#projectDescription {
+  margin-bottom: 50px;
+  font-size: 18pt;
+  padding: 15px;
+}
+
+img#signatureImage {
+  height: 165px;
+}
+
+div#signatureContainer {
+  height: 130px;
+  margin-bottom: 20px;
+  background-image: linear-gradient(to right, rgba(0, 0, 60, 0.1), rgba(0, 0, 30, 0.1));
+  border-radius: 3px;
+  -webkit-box-shadow: 1px -1px 1px #999999;
+}
+
+div#contentContainer {
+  min-height: calc(100% - 130px);
+  overflow: visible;
+  /*padding: 20px 100px 20px 100px;*/
+  border: 1px solid #CCCCCC;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px -1px 1px #999999;
+}
